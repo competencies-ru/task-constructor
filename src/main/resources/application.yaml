@@ -1,2 +1,18 @@
 server:
   port: 8080
+
+keycloak:
+  realm: demo
+  resource:
+  auth-server-url:
+  ssl-required:
+  use-resource-role-mappings: true
+
+app:
+  keycloak:
+    login:
+      url:
+    grant-type:
+    client-id:
+    client-secret:
+
