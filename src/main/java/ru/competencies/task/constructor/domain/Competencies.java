@@ -11,7 +11,7 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Getter
 @Builder
-public class Competencies implements ObjectValue {
+public class Competencies {
     Long id;
     String name;
 

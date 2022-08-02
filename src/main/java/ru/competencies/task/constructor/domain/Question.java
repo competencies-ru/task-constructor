@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
@@ -14,7 +15,8 @@ import java.util.UUID;
 public class Question {
     UUID questionId;
     String description;
-    Integer rank;
+    BigDecimal rank;
     QuestionTypeEnum questionType;
     List<QuestionData> data;
+
 }

@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Getter
 @Builder
-public class AcademicSubject implements ObjectValue {
+public class AcademicSubject {
     Long id;
     String name;
 
