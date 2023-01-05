@@ -1,7 +1,6 @@
 package ru.competencies.task.constructor.adapter.persistence.postgres.entities;
 
 import lombok.*;
-import ru.competencies.task.constructor.core.entity.education.Ugsn;
 
 import javax.persistence.*;
 import java.util.List;
