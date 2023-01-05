@@ -1,0 +1,26 @@
+server:
+  port: { SERVER_PORT:8080 }
+  shutdown: graceful
+
+spring:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+  liquibase:
+    changeLog: classpath:/db/changelog/db.changelog-master.xml
+    url: ${spring.datasource.url}
+    user: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    drop-first: true
+
+  datasource:
+    url: jdbc:postgresql://${DB_URL:localhost:5432/task-constructor}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database: postgresql
+
+
