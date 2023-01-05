@@ -431,7 +431,7 @@ components:
       properties:
         code:
           type: string
-          pattern: '^\d{2}\.0{2}\.0{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.00\.00$'
         title:
           type: string
 
@@ -443,7 +443,7 @@ components:
       properties:
         code:
           type: string
-          pattern: '^\d{2}\.\d{2}\.\d{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})$'
         title:
           type: string
 
@@ -496,7 +496,7 @@ components:
           pattern: uuid
         code:
           type: string
-          pattern: '^\d{2}\.\d{2}\.\d{2}-\d{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})-(0[1-9]{1}|[1-9]{1}[0-9]{1})$'
         title:
           type: string
 
@@ -513,7 +513,7 @@ components:
           pattern: uuid
         code:
           type: string
-          pattern: '^\d{2}\.\d{2}\.\d{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})$'
         title:
           type: string
         program:
@@ -534,7 +534,7 @@ components:
           pattern: uuid
         code:
           type: string
-          pattern: '^\d{2}\.0{2}\.0{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.00\.00$'
         title:
           type: string
         specialty:
@@ -554,7 +554,7 @@ components:
           pattern: uuid
         code:
           type: string
-          pattern: '^\d{2}\.0{2}\.0{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.00\.00$'
         title:
           type: string
 
@@ -570,7 +570,7 @@ components:
           pattern: uuid
         code:
           type: string
-          pattern: '^\d{2}\.\d{2}\.\d{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})$'
         title:
           type: string
 
@@ -582,6 +582,6 @@ components:
       properties:
         code:
           type: string
-          pattern: '^\d{2}\.\d{2}\.\d{2}-\d{2}$'
+          pattern: '^(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})\.(0[1-9]{1}|[1-9]{1}[0-9]{1})-(0[1-9]{1}|[1-9]{1}[0-9]{1})$'
         title:
           type: string
