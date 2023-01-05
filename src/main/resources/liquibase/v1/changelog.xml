@@ -4,4 +4,8 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <include file="create-level-table.sql" relativeToChangelogFile="true"/>
+    <include file="create-ugsn-table.sql" relativeToChangelogFile="true"/>
+    <include file="create-specialty-table.sql" relativeToChangelogFile="true"/>
+    <include file="create-program-table.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>

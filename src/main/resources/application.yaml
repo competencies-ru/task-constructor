@@ -24,5 +24,3 @@ spring:
     database: postgresql
     show-sql: true
 
-
-
